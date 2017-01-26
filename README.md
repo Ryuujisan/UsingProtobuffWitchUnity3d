@@ -12,10 +12,11 @@ require Visual Studia 2010 or 2012
 5 Change version .net to 2.0 version and compile project
 
 6. Now Create Serializer. Create New Project like Console Aplication using .net 2.0 import Your.dll and protobuff.dll and paste code
- using System;
+
+
+using System;
 using ProtoBuf.Meta;
 using packet.protobuff;
-
 namespace YourNameSpace
 {
     class Program
@@ -33,6 +34,8 @@ namespace YourNameSpace
         }
     }
 }
+
+
 Compile
 
 7. You have 3 .dll protobuff-net yourClass.dll and yourSerializer.dll copy to unity your project Assets/plugins
